@@ -1318,7 +1318,7 @@
 	};
 
 	/* Spread it to the world! */
-	if ( typeof define === 'function' && define.amd ) define('Datepickk', Datepickk);
+	if ( typeof define === 'function' && define.amd ) define(function() { return Datepickk; });
 	else if ( typeof exports === 'object' ) module.exports = Datepickk;
 	else window.Datepickk = Datepickk;
 })();
