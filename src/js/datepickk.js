@@ -765,6 +765,7 @@
 		that.selectDate = selectDate;
 		that.unselectAll = unselectAll;
 		that.unselectDate = unselectDate;
+		that.updateRange = updateRange;
 
 		function currentDateGetter(){
 			return new Date(currentYear,currentMonth-1,1);
